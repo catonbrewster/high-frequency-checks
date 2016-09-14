@@ -40,7 +40,7 @@ program ipacheckenum
 	g row_rf = 0
 	
 	// initialize duration variable
-	g duration = (endtime - starttime)/60000
+	g duration = (enddate - startdate)/60000
 	replace duration = . if duration < 0
 
 	/* loop through all variables, count number of interviews;
